@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="postage1.PostageUtil"/>
+<fullyQualifiedTypeName name="postage3.PostageUtil"/>
+<fullyQualifiedTypeName name="hw2.CS227Baseball"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="hw3.GameUtil"/>
+<fullyQualifiedTypeName name="hw3.Game"/>
+<fullyQualifiedTypeName name="apple.laf.JRSUIConstants.Direction"/>
+<fullyQualifiedTypeName name="api.TilePosition"/>
+<fullyQualifiedTypeName name="api.Move"/>
+<fullyQualifiedTypeName name="ui.ConsoleUI"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="AddressBook.Contact"/>
+<fullyQualifiedTypeName name="AddressBook.ContactDirectory"/>
+<fullyQualifiedTypeName name="AddressBook.ContactInterface"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="api.Selector"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="mini2.FirstLetterCombiner"/>
+<fullyQualifiedTypeName name="api.Combiner"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="api.Position"/>
+<fullyQualifiedTypeName name="api.Shape"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="TAP.Person"/>
+<fullyQualifiedTypeName name="TAP.AbstractPerson"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

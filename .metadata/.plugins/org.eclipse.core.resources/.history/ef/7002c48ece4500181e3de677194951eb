@@ -1,0 +1,78 @@
+package hw4;
+import java.awt.Color;
+import api.Block;
+import api.Cell;
+import api.Shape;
+
+/**
+ * Abstract superclass for implementations of the Shape interface.
+ */
+public abstract class AbstractShape implements Shape
+	{
+	// TODO - add the methods and constructors you want
+	// (constructors must be declared protected)
+	// add getCells
+	// add cycle
+	
+	
+	
+	public Shape clone()
+		{
+		try
+			{
+			AbstractShape s = (AbstractShape) super.clone();
+			// TODO: make it into a deep copy
+			return s;
+			}
+		catch (CloneNotSupportedException e)
+			{
+			return null;
+			}
+		}
+		
+		
+		
+	public static void shiftDown(Cell cells)
+		{
+		cells.setRow(cells.getRow() + 1);
+		}
+		
+		
+		
+	public static void shiftLeft(Cell cells)
+		{
+		cells.setRow(cells.getCol() - 1);
+		}
+		
+		
+		
+	public static void shiftRight(Cell cells)
+		{
+		cells.setRow(cells.getCol() + 1);
+		}
+		
+		
+		
+	public static void cycle(Color color, Cell cell, Cell cellNext)
+		{
+		Block nonMagic = new Block(color, false);
+		Block isMagic = new Block(color, true);
+		if (cell.getBlock().isMagic() == true)
+			{
+			cell.setBlock(nonMagic);
+			cellNext.setBlock(isMagic);
+			}
+		}
+		
+		
+		
+	public static Cell[] getCells(Cell[] cells)
+		{
+		Cell[] copy = new Cell[cells.length];
+		for (int x = 0; x < cells.length; x++)
+			{
+			copy[x] = new Cell(cells[x]);
+			}
+		return copy;
+		}
+	}
